@@ -22,6 +22,7 @@ nav {
     font-size: 2.5em;
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+	display: flexbox;
 }
 
 nav ul {
@@ -38,7 +39,7 @@ label.logo {
 }
 
 nav ul li {
-    display: inline-block;
+    display: inline-flex;
     line-height: 80px;
 	margin: 0 5px;
 }
